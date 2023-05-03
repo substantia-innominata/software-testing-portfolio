@@ -54,4 +54,8 @@ UI design is simple - I assume that this type of application doesn’t have to b
 
 NOTE: This evaluation if far from ideal, but I stick to opinion that done is better than perfect :)
 
+# Task 2
+
+https://drive.google.com/drive/folders/1V1zmB-7uxiH26sD-tOFZ2nk8kGnRGGl3?usp=sharing
+
 *Agnieszka*
