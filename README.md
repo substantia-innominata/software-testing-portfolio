@@ -58,4 +58,17 @@ NOTE: This evaluation if far from ideal, but I stick to opinion that done is bet
 
 https://drive.google.com/drive/folders/1V1zmB-7uxiH26sD-tOFZ2nk8kGnRGGl3?usp=sharing
 
+# Task 3
+
+## Subtask 1
+https://drive.google.com/file/d/1jnKSCmqpjT3jG8YSs30LsGL76evfmZIp/view?usp=sharing
+
+## Subtask 2
+https://drive.google.com/file/d/1sr_-x1v63rcBeAkcHzcpShTdVInNuJfJ/view?usp=sharing (part 1)
+
+https://drive.google.com/file/d/1rMmH-oesHUfu6T7m2keCCnsLbu63Dnfy/view?usp=sharing (part 2)
+
+## Subtask 3
+https://drive.google.com/file/d/1JGQYzyYKcsz4h45WyoFbUNWXeXC64_IN/view?usp=share_link
+
 *Agnieszka*
