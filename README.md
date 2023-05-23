@@ -83,3 +83,60 @@ https://drive.google.com/file/d/1PXRhk44QJy9tio9riqxbAZX8vdZ7dF6r/view?usp=share
 
 ## Subtask 1
 SQL statements and operators: SELECT, SELECT DISTINCT, WHERE, AND/OR/NOT, ORDER BY, INSERT INTO, UPDATE, DELETE, LIKE, IN, BETWEEN, HAVING, EXISTS
+
+## Subtask 3
+#### 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+SELECT * FROM actors ORDER BY surname;
+
+<img width="250" alt="Zrzut ekranu 2023-05-23 o 12 43 29" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/870944be-9496-451a-86de-787b7e959d4c">
+
+#### 2. Wyświetl film, który powstał w 2019 roku.
+SELECT * FROM movies WHERE year_of_production = 2019;
+
+<img width="318" alt="Zrzut ekranu 2023-05-23 o 12 43 55" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/fe9cd15e-55bc-423e-87f1-cb36c6758b05">
+
+#### 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999;
+
+<img width="493" alt="Zrzut ekranu 2023-05-23 o 12 44 20" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/576c1620-3a55-4c0e-8039-952f3a3ce691">
+
+#### 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.S
+SELECT DISTINCT title, price FROM movies WHERE price < 7;
+
+<img width="290" alt="Zrzut ekranu 2023-05-23 o 12 44 49" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/ab112b4a-93d4-4c29-9c6a-5654809f0ec1">
+
+#### 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+SELECT * FROM customers WHERE customer_id = 2 OR customer_id = 4 OR customer_id = 6
+
+<img width="350" alt="Zrzut ekranu 2023-05-23 o 12 45 26" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/34651fde-b49a-4d81-8a02-b591adb823c3">
+
+#### 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+SELECT * FROM customers WHERE customer_id IN (1, 3, 5);
+
+<img width="335" alt="Zrzut ekranu 2023-05-23 o 12 46 03" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/406484c3-1de8-4bee-843f-060c597bc6e9">
+
+#### 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+SELECT * FROM actors WHERE name LIKE 'An%';
+
+<img width="215" alt="Zrzut ekranu 2023-05-23 o 12 46 33" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/94e177dd-783c-4224-bdac-e60637fa5fab">
+
+#### 9. Wyświetl dane klienta, który nie ma podanego adresu email.
+SELECT * FROM customers WHERE email IS NULL;
+
+<img width="292" alt="Zrzut ekranu 2023-05-23 o 12 46 55" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/3e1ce8be-81f1-429d-908e-e8c541a72b63">
+
+#### 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+
+<img width="359" alt="Zrzut ekranu 2023-05-23 o 12 47 27" src="https://github.com/substantia-innominata/software-testing-portfolio/assets/51747632/794ad747-6512-4081-8fcf-13f86f95d439">
+
+
+
+
+
+
+
+
+
+
+
