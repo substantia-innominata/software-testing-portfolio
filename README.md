@@ -79,4 +79,7 @@ https://drive.google.com/file/d/1M2igLOxoTvk_dpXol_pLWAbNWbFgeHgD/view?usp=share
 ## Subtask 3
 https://drive.google.com/file/d/1PXRhk44QJy9tio9riqxbAZX8vdZ7dF6r/view?usp=share_link
 
-*Agnieszka*
+# Task 5
+
+## Subtask 1
+SQL statements and operators: SELECT, SELECT DISTINCT, WHERE, AND/OR/NOT, ORDER BY, INSERT INTO, UPDATE, DELETE, LIKE, IN, BETWEEN, HAVING, EXISTS
